@@ -1,0 +1,45 @@
+*{
+    font-family:Arial;
+}
+
+.img{
+    float: left;
+}
+
+.topH{
+    text-indent: 1em;
+    float: left;
+}
+#topH1{
+    color:orange;
+    font-style:italic;
+    text-shadow: 2px 2px black;
+    font-size: 2em;
+}
+.heading {
+    clear: both;
+    font-size:1em;
+}
+
+#firstH:first-child:first-letter{
+    font-size: 2em;
+}
+
+a:link{
+    font-weight: bold;
+    color: orange;
+    
+}
+
+a:hover{
+    color:green;
+}
+
+li{
+    line-height: 1.5;
+}
+
+footer{
+    font-size: .5em;
+    text-align: center;
+}
