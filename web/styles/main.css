@@ -19,9 +19,7 @@ header{
     border-bottom: solid black;
     background: linear-gradient(45deg, white 12.5%, orange 75%, black 100%);
 }
-main{
-    padding:5px
-}
+
 .img{
     float: left;
 }
@@ -42,6 +40,20 @@ main{
     font-size: 3em;
 }
 
+aside{
+    padding-left:5px;
+    width:160px;
+    float:left;
+}
+
+main{
+    width:600px;
+    float: right;
+    padding:5px
+}
+.POTW{
+    clear:both;
+}
 a:link{
     font-weight: bold;
     color: orange;
@@ -57,6 +69,7 @@ li{
 }
 
 footer{
+    clear:both;
     height:30px;
     border-top: solid black;
     background: linear-gradient(45deg, black 12.5%, orange 75%, white 100%);
