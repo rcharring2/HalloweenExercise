@@ -20,6 +20,36 @@ header{
     background: linear-gradient(45deg, white 12.5%, orange 75%, black 100%);
 }
 
+nav{
+    width:800px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+nav ul li {
+    float: left;
+    width:20%;
+    height:30px;
+    text-align: center;
+    background: black;
+}
+.home{
+    color: orange;
+}
+nav ul a:link{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+
+}
+nav ul a:hover{
+    background:gray;
+}
 .img{
     float: left;
 }
@@ -41,9 +71,32 @@ header{
 }
 
 aside{
+    clear:both;
     padding-left:5px;
     width:160px;
     float:left;
+}
+
+aside ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+aside ul li{
+    background: orange;
+    border: solid black;
+    height: 40px;
+    margin: 3px;
+    padding: 5px;
+    
+}
+aside ul a:link{
+    display:block;
+    font-weight: bold;
+    color: black; 
+    text-decoration:none;
+    height:40px;
 }
 
 main{
@@ -54,13 +107,13 @@ main{
 .POTW{
     clear:both;
 }
-a:link{
+
+.cat:link{
     font-weight: bold;
-    color: orange;
-    
+    color: orange;  
 }
 
-a:hover{
+aside ul a:hover, main a:hover{
     color:green;
 }
 
