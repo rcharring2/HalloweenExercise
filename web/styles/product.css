@@ -40,7 +40,6 @@ nav ul li {
 .current{
     color: orange;
 }
-
 nav ul a:link{
     display: block;
     text-decoration: none;
@@ -50,12 +49,8 @@ nav ul a:link{
 }
 
 nav ul a:visited{
-    display: block;
-    text-decoration: none;
-    font-weight: bold;
     color: white;
 }
-
 
 nav ul a:hover{
     background:gray;
@@ -77,30 +72,26 @@ nav ul a:hover{
     font-size:1em;
 }
 
-#firstH:first-child:first-letter{
-    font-size: 3em;
-}
-
-aside{
+/*Left side bar*/
+#leftsb{
     clear:both;
     padding-left:5px;
     width:160px;
     float:left;
 }
 
-aside ul{
+#leftsb ul{
     list-style-type: none;
     margin:0;
     padding:0;
 }
 
-aside ul li{
+#leftsb ul li{
     background: orange;
     margin: 3px;
-    
 }
 
-aside ul a:link{
+#leftsb ul a:link{
     display:block;
     font-weight: bold;
     color: black; 
@@ -109,38 +100,61 @@ aside ul a:link{
     border: 3px solid black;
 }
 
-aside ul a:visited{
-    display:block;
-    font-weight: bold;
-    color: black; 
-    text-decoration:none;
-    height:40px;
+#leftsb ul a:visited{
+    color:black;
 }
+
+#leftsb ul a:hover{
+    color:green;
+}
+
+#rightsb{
+    padding-right:5px;
+    width:180px;
+    float:right;
+    background:#F5DEB3;
+}
+
+#rightsb ul a:link, #rightsb ul a:visited{
+    color:black;
+}
+
+
+#rightsb ul a:hover, #rightsb ul a:focus{
+    color:green;
+}
+
+#rightsb ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+#rightsb ul li{
+    margin: 1em;  
+}
+
+#rightsb h2{
+    padding-left: .25em;
+}
+.rsbPic{
+    height:5em;
+    width:5em;
+}
+
 
 main{
-    width:600px;
-    float: right;
-    padding:5px
-}
-.POTW{
-    clear:both;
-}
-
-.cat:link{
-    font-weight: bold;
-    color: orange;  
-}
-
-.cat:visited{
-    color:orange;
-}
-
-aside ul a:hover, .cat:hover{
-    color:green;
+    width:400px;
+    padding:5px;
+    float:right;
 }
 
 li{
     line-height: 1.5;
+}
+
+.catpic{
+    float:left;
+    margin-right: 1em;
 }
 
 footer{
@@ -151,3 +165,5 @@ footer{
     font-size: .5em;
     text-align: center;
 }
+
+
