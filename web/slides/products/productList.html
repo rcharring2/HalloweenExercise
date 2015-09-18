@@ -5,12 +5,13 @@
 	<meta charset="utf-8" />
 	<title>Halloween Store</title>
         <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-        <link rel="stylesheet" type="text/css" href="styles/main.css">      
+        <link rel="stylesheet" type="text/css" href="../../styles/summary.css">      
 </head>
 
 <body>
     <header>
-        <img class="img" src="images/pumpkin.gif" alt="pumpkin picture">
+        <a href="../../index.html" title="Home Page">
+            <img class="img" src="../../images/pumpkin.gif" alt="pumpkin picture"></a>
         <div class ="topH">
             <h1 class ="heading" id="topH1">The Halloween Store</h1>
             <h2 class ="heading">For the little Goblin in all of us!</h2>
@@ -18,14 +19,14 @@
     </header>
     <nav>
         <ul>
-            <li><a href="index.html" title="Home Page" class="home">Home</a></li>
-            <li><a href="folder/productList" title="Product List">Product List</a></li>
+            <li><a href="../../index.html" title="Home Page">Home</a></li>
+            <li><a href="productList.html" title="Product List"  class="current">Product List</a></li>
             <li><a href="folder/personal" title="Personal">Personal</a></li>
             <li><a href="folder/decoratingItems" title="Decorating Items">Decorating Items</a></li>
             <li><a href="folder/joinEmail" title="Join Email">Join Email</a></li>
         </ul>
     </nav>
-        <aside>
+        <aside id="leftsb">
             <ul>
                 <li><a href="../products/props" title="link to props">Props</a></li>
                 <li><a href="../products/costumes" title="link to Costumes">Costumes</a></li>
@@ -34,20 +35,74 @@
              </ul>
         </aside>
         <main>
-            <h1 class ="heading" id="firstH">Welcome to my site. <br> Please come in and stay awhile.</h1>
-                <p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.</p>
-                <p>If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.
-                </p> 
-            
-            <h2 class ="heading">Product of the Week</h2>
-            <a href="products/cat.html" title="link to deranged cat product">
-                <img src="images/cat1.jpg" alt="cat picture"></a>
-            <div class="POTW">
-            <a href="products/cat.html" title="link to deranged cat product" class="cat">Deranged Cat</a>
-            </div>
-            <h2 class ="heading">My Guarantee</h2>
-                <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b>					
-                </p>
+            <table>
+                <caption><b>Product List</b></caption>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="5" class="prodGroup"><b>Props</b></td>
+                        <td><a href="cat.html" title="link to deranged cat product">20'' Deranged Cat</a></td>
+                        <td>$39.99</td>
+                    </tr>
+                    <tr>
+                        <td><a href="flyingBats.html" title="link to flying bats product">Flying Bats</a></td>
+                        <td>$14.99</td>
+                    </tr>
+                    <tr>
+                        <td><a href="uglyRat1.html" title="link to ugly rat product">16'' Ugly Rat</a></td>
+                        <td>$14.99</td>
+                    </tr>
+                    <tr>
+                        <td><a href="uglyRat2.html" title="link to ugle rat product">20'' Ugly Rat</a></td>
+                        <td>$19.99</td>
+                    </tr>
+                    <tr>
+                        <td><a href="skeleton.html" title="link to plastic skelton product">Plastic Skeleton</a></td>
+                        <td>$12.50</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="prodGroup"><b>Costumes</b></td>
+                        <td><a href="austinPowers.html" title="link to Austin Powers product">Austin Powers</a></td>
+                        <td>$79.50</td>
+                    </tr>
+                    <tr>
+                        <td><a href="frankenstein.html" title="link to frankenstein product">Frankenstein</a></td>
+                        <td>$49.99</td>
+                    </tr>
+                    <tr>
+                        <td><a href="martian.html" title="link to martian product">Martian</a></td>
+                        <td>$69.99</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="prodGroup"><b>Special Effects</b></td>
+                        <td><a href="fogMachine.html" title="link to fog machine product">Fog Machine</a></td>
+                        <td>$34.99</td>
+                    </tr>
+                    <tr>
+                        <td><a href="fogJuice.html" title="link to fog juice product">Fog Juice</a></td>
+                        <td>$9.99</td>
+                    </tr>
+                    <tr>
+                        <td><a href="strobeLight.html" title="link to mini strobe light product">Mini Strobe Light</a></td>
+                        <td>$14.99</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="prodGroup"><b>Masks</b></td>
+                        <td><a href="freddy.html" title="link to freddy mask product">Freddy</a></td>
+                        <td>$44.50</td>
+                    </tr>
+                    <tr>
+                        <td><a href="darthVader.html" title="link to Darth Vader product">Darth Vader</a></td>
+                        <td>$124.50</td>
+                    </tr>   
+                </tbody>
+            </table>
         </main>
     <footer>
         <p>&copy; 2016 Ben Murach</p>

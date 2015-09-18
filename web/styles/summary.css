@@ -24,13 +24,11 @@ header{
 nav{
     width:800px;
 }
-
 nav ul{
     list-style-type: none;
     margin:0;
     padding:0;
 }
-
 nav ul li {
     float: left;
     width:20%;
@@ -56,12 +54,11 @@ nav ul a:visited{
     font-weight: bold;
     color: white;
 }
-
 nav ul a:hover{
     background:gray;
 }
 
-/* Web Page header*/
+/*Web Page Header*/
 .img{
     float: left;
 }
@@ -83,26 +80,25 @@ nav ul a:hover{
 }
 
 /*Left side bar*/
-aside{
+#leftsb{
     clear:both;
     padding-left:5px;
     width:160px;
     float:left;
 }
 
-aside ul{
+#leftsb ul{
     list-style-type: none;
     margin:0;
     padding:0;
 }
 
-aside ul li{
+#leftsb ul li{
     background: orange;
     margin: 3px;
-    
 }
 
-aside ul a:link{
+#leftsb ul a:link{
     display:block;
     font-weight: bold;
     color: black; 
@@ -111,12 +107,12 @@ aside ul a:link{
     border: 3px solid black;
 }
 
-aside ul a:visited{
-    display:block;
-    font-weight: bold;
-    color: black; 
-    text-decoration:none;
-    height:40px;
+#leftsb ul a:visited{
+    color:black;
+}
+
+#leftsb ul a:hover{
+    color:green;
 }
 
 /*Main*/
@@ -126,22 +122,28 @@ main{
     padding:5px
 }
 
-/*Product of the week formatting*/
-.POTW{
-    clear:both;
-}
-
-.cat:link{
-    font-weight: bold;
-    color: orange;  
-}
-
-.cat:visited{
-    color:orange;
-}
-
 aside ul a:hover, .cat:hover{
     color:green;
+}
+
+/*Table formatting*/
+table{
+    width:80%;
+    border-collapse: collapse;
+    line-height:1.5;
+}
+.prodGroup{
+    vertical-align: top;
+}
+th:nth-child(1), th:nth-child(2){
+    text-align:left;
+}
+td:last-child, th:last-child{
+    background:#F5DEB3;
+    text-align: right;
+}
+td a:link, td a:visited{
+    color:black;
 }
 
 li{
@@ -157,3 +159,5 @@ footer{
     font-size: .5em;
     text-align: center;
 }
+
+
