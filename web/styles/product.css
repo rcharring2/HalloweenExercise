@@ -20,6 +20,7 @@ header{
     background: linear-gradient(45deg, white 12.5%, orange 75%, black 100%);
 }
 
+/*Horizontal Nav bar*/
 nav{
     width:800px;
 }
@@ -56,6 +57,7 @@ nav ul a:hover{
     background:gray;
 }
 
+/*Web Page Header*/
 .img{
     float: left;
 }
@@ -108,6 +110,7 @@ nav ul a:hover{
     color:green;
 }
 
+/*Right side bar*/
 #rightsb{
     padding-right:5px;
     width:180px;
@@ -141,22 +144,28 @@ nav ul a:hover{
     width:5em;
 }
 
-
+/*Main*/
 main{
     width:400px;
     padding:5px;
     float:right;
+}
+/*Format Product Description*/
+main p {
+    overflow:hidden;
+}
+
+/*Cat Picture Formatting*/
+.catpic{
+    float:left;
+    margin-right: 1em;
 }
 
 li{
     line-height: 1.5;
 }
 
-.catpic{
-    float:left;
-    margin-right: 1em;
-}
-
+/*Footer*/
 footer{
     clear:both;
     height:30px;
