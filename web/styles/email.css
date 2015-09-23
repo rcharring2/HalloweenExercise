@@ -1,0 +1,175 @@
+*{
+    font-family:Arial;
+}
+html{
+    background-image: url(../images/bats.gif);
+    background-repeat: repeat;
+}
+
+body{
+  width:800px;
+  border:2px solid black;
+  background: white;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0px 0px 15px 15px black;
+}
+header{
+    padding:5px;
+    border-bottom: solid black;
+    background: linear-gradient(45deg, white 12.5%, orange 75%, black 100%);
+}
+
+/*Horizontal Nav bar*/
+nav{
+    width:800px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+nav ul li {
+    float: left;
+    width:20%;
+    height:30px;
+    text-align: center;
+    background: black;
+}
+
+
+nav ul a:link{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+
+}
+
+nav ul a:visited{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.current, .current:visited, .current:link{
+    color: orange;
+}
+
+nav ul a:hover{
+    background:gray;
+}
+
+/* Web Page header*/
+.img{
+    float: left;
+}
+
+.topH{
+    text-indent: 1em;
+}
+#topH1{
+    margin:0;
+    font-size: 2em;
+}
+
+.heading {
+    font-size:1em;
+}
+
+/*Left side bar*/
+aside{
+    clear:both;
+    padding-left:5px;
+    width:160px;
+    float:left;
+}
+
+aside ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+aside ul li{
+    background: orange;
+    margin: 3px;
+    
+}
+
+aside ul a:link{
+    display:block;
+    font-weight: bold;
+    color: black; 
+    text-decoration:none;
+    line-height:2em;
+    border: 3px solid black;
+}
+
+aside ul a:visited{
+    display:block;
+    font-weight: bold;
+    color: black; 
+    text-decoration:none;
+    height:40px;
+}
+
+/*Main*/
+main{
+    width:600px;
+    float: right;
+    padding:5px
+}
+
+/*Form styling*/
+form{
+    width:70%
+}
+form p{
+    text-align: right;
+}
+.subscribe{
+    width:20%;
+    background:orange;
+}
+
+input{
+    width:70%;
+}
+
+input[type=submit]{
+    border:solid black;
+}
+
+p label{
+    width:30%
+}
+form p:last-child label{
+    margin-left: 27%;
+}
+form p:last-child{
+    text-align:left;
+}
+
+aside ul a:hover, .cat:hover{
+    color:green;
+}
+
+li{
+    line-height: 1.5;
+}
+
+/*Footer*/
+footer{
+    clear:both;
+    height:30px;
+    border-top: solid black;
+    background: linear-gradient(45deg, black 12.5%, orange 75%, white 100%);
+    font-size: .5em;
+    text-align: center;
+}
+
+

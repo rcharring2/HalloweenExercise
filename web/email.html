@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Halloween Store</title>
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/email.css">      
+</head>
+
+<body>
+    <header>
+        <a href="index.html" title="Home Page">
+            <img class="img" src="images/pumpkin.gif" alt="pumpkin picture"></a>
+        <div class ="topH">
+            <h1 class ="heading" id="topH1">The Halloween Store</h1>
+            <h2 class ="heading">For the little Goblin in all of us!</h2>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Home Page">Home</a></li>
+            <li><a href="slides/products/productList.html" title="Product List">Product List</a></li>
+            <li><a href="folder/personal" title="Personal">Personal</a></li>
+            <li><a href="folder/decoratingItems" title="Decorating Items">Decorating Items</a></li>
+            <li><a href="email.html" title="Join Email" class="current">Join Email</a></li>
+        </ul>
+    </nav>
+        <aside>
+            <ul>
+                <li><a href="../products/props" title="link to props">Props</a></li>
+                <li><a href="../products/costumes" title="link to Costumes">Costumes</a></li>
+                <li><a href="../products/specialEffects" title="link to special effects">Special Effects</a></li>
+                <li><a href="../products/masks" title="link to masks">Masks</a></li>
+             </ul>
+        </aside>
+        <main>
+            <h2>Please Enter the Following Information</h2>
+            <form action="subscribe.html" method="get">
+                <p><label>First name:</label><input type="text" name="first name" autofocus required></p>
+                <p><label>Last name:</label><input type="text" name="last name" required></p>
+                <p><label>Email:</label><input type="email" name="email address" required></p>
+                <p><label>Zip Code:</label>
+                    <input type="text" name="zip code" pattern="^\d{5}$"
+                            placeholder="Optional but appreciated: 99999"></p>
+                <p><label>&nbsp;</label><input type="submit" value="Subscribe" class="subscribe"></p>
+            </form>
+        </main>
+    <footer>
+        <p>&copy; 2016 Ben Murach</p>
+    </footer>
+</body>
+</html>
+
